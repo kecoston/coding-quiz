@@ -24,8 +24,26 @@ nav{
     padding: 20px;
 }
 
+#minutes{
+    float:left;
+}
+#seconds{
+    float:right;
+    padding-left: 5px;
+}
 #quizContentPlacement{
     text-align: center;
-    width: 500px;
     padding-top: 20px;
+    width: 500px;
+}
+
+@media screen and (max-width: 500px){
+    #quizContentPlacement{
+        width: 200px;
+    }
+
+    #timer{
+        float: left;
+        padding: 20px;
+    }
 }
